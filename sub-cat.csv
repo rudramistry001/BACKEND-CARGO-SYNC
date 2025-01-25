@@ -1,0 +1,88 @@
+CategoryID,Subcategory Name,Description,Attribute Name,Attribute Type,Required
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,RAM,number,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,ROM,number,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Processor,string,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Dimensions,string,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Battery,number,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Camera,string,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Operating System,string,TRUE
+678f3e3ad0c3be2e0126ef73,Mobile,Smartphones and mobile devices,Screen Size,number,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,RAM,number,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Storage,number,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Processor,string,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Screen Size,number,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Battery,number,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Operating System,string,TRUE
+678f3e3ad0c3be2e0126ef73,Laptop,Personal computing devices,Graphics Card,string,FALSE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Sensor Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Resolution,string,TRUE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Lens Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Screen Size,number,TRUE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Battery,number,TRUE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,Camera,Photography equipment,Image Stabilization,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Battery Life,number,TRUE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Display Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,GPS,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Heart Rate Monitor,boolean,TRUE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Water Resistance,string,FALSE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Compatible OS,string,TRUE
+678f3e3ad0c3be2e0126ef73,Smartwatch,Wearable technology,Band Material,string,FALSE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Connectivity,string,TRUE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Battery Life,number,TRUE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Noise Cancellation,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Driver Size,number,FALSE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Bluetooth Version,string,TRUE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,Headphones,Audio devices,Water Resistance,string,FALSE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Screen Size,number,TRUE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Resolution,string,TRUE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Smart TV,boolean,TRUE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Connectivity,string,TRUE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,HDR,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,TVs,Television sets,Power Consumption,number,FALSE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Storage,number,TRUE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Controller,boolean,TRUE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Resolution,string,TRUE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Games Included,array,FALSE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,GamingConsole,Entertainment systems,Power Supply,string,FALSE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Energy Rating,string,TRUE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Material,string,TRUE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Temperature Control,string,TRUE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Freezer Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,Refrigerator,Home appliances,Water Dispenser,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Load Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Energy Rating,string,TRUE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Spin Speed,number,TRUE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Type of Drum,string,TRUE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,WashingMachine,Home appliances,Water Usage,number,FALSE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Power,number,TRUE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Grill Function,boolean,FALSE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,Microwave,Kitchen appliances,Energy Rating,string,FALSE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Power Consumption,number,TRUE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Cooling Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Energy Rating,string,TRUE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,AirConditioner,Home appliances,Filter Type,string,FALSE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Power,number,TRUE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Type,string,TRUE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Filter Type,string,FALSE
+678f3e3ad0c3be2e0126ef73,VacuumCleaner,Home appliances,Noise Level,number,FALSE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Power,number,TRUE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Capacity,number,TRUE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Speed Settings,number,TRUE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Material,string,TRUE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Weight,number,FALSE
+678f3e3ad0c3be2e0126ef73,Blender,Kitchen appliances,Attachments,string,FALSE

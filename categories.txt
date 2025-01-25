@@ -1,0 +1,48 @@
+Electronics
+
+Products: Smartphones, Laptops, Cameras, Headphones, Wearables
+
+
+Clothing
+
+Products: T-shirts, Jeans, Dresses, Jackets, Sweaters
+
+
+Home Appliances
+
+Products: Refrigerators, Microwaves, Washing Machines, Air Conditioners, Vacuum Cleaners
+
+
+Books
+
+Products: Fiction, Non-fiction, Educational, Biographies, Comic Books
+
+
+Beauty & Personal Care
+
+Products: Skincare, Haircare, Makeup, Fragrances, Shaving Essentials
+
+
+Sports & Outdoors
+
+Products: Bicycles, Tents, Yoga Mats, Hiking Boots, Gym Equipment
+
+
+Toys & Games
+
+Products: Action Figures, Board Games, Puzzles, Remote-Controlled Cars, Dolls
+
+
+Furniture
+
+Products: Sofas, Chairs, Tables, Bed Frames, Storage Units
+
+
+Food & Beverages
+
+Products: Snacks, Drinks, Spices, Gourmet Food, Organic Products
+
+
+Health & Wellness
+
+Products: Supplements, Fitness Trackers, Health Monitors, First Aid Kits, Massagers
