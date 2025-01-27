@@ -7,7 +7,7 @@ import loginLimiter from "../middlewares/rate_limit_middleware.js";
 const router = express.Router();
 
 // Use the authenticateToken middleware for specific routes
-router.post("/register-customer", registerCustomer);
+router.post("/register-customer",authorize(['Customer', 'admin']), registerCustomer);
 router.post("/register-driver", registerDriver);
 router.post("/register-agency", registerAgency);
 router.post("/login",loginLimiter, login);
