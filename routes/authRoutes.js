@@ -1,17 +1,17 @@
-
-import {  login, logout, verifyToken, registerCustomer, registerDriver, registerAgency } from '../controller/authController.js';
+import { login, logout, verifyToken, registerCustomer, registerDriver, registerAgency } from '../controller/authController.js';
 import express from 'express';
 import loginLimiter from "../middlewares/rate_limit_middleware.js";
+import { authorize} from "../middlewares/authorize_middleware.js";
 
 // Create router object
 const router = express.Router();
 
 // Use the authenticateToken middleware for specific routes
-router.post("/register-customer",authorize(['customer', 'admin']), registerCustomer);
-router.post("/register-driver",['driver', 'admin'], registerDriver);
-router.post("/register-agency",['agency', 'admin'], registerAgency);
-router.post("/login",loginLimiter,['customer', 'admin','driver','agency',], login);
+router.post("/register-customer", registerCustomer);
+router.post("/register-driver", authorize(['driver', 'admin']), registerDriver);
+router.post("/register-agency",  authorize(['agency', 'admin']), registerAgency);
+router.post("/login", loginLimiter, login);
 router.post("/logout", logout);
-router.post("/", );
-router.post("/verify-token", verifyToken)
+router.post("/verify-token", verifyToken);
+
 export default router;
