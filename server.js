@@ -5,11 +5,7 @@ import dotenv from 'dotenv';
 import morgan from "morgan";
 import connectDB from "./config/db_config.js";
 import authRoutes from "./routes/authRoutes.js";
-import offerRoutes from './routes/offer_routes.js';
-import categoryRoutes from './routes/category_routes.js';
-import productRoutes from './routes/product_routes.js';
 import path from 'path';
-import SubcategorRoutes from "./routes/sub-category_routes.js";
 import ProfileRoutes from "./routes/profile_routes.js";
 
 
@@ -50,8 +46,4 @@ app.use(cookieParser());
 
 //ROUTES
 app.use("/", authRoutes);
-app.use("/offer", offerRoutes);
-app.use("/categories", categoryRoutes);
-app.use("/product", productRoutes);
-app.use("/sub-category",SubcategorRoutes );
 app.use("/profile", ProfileRoutes);
