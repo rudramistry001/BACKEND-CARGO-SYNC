@@ -7,7 +7,7 @@ import { authorize } from '../middlewares/authorize_middleware.js';
 
 const router = express.Router();
 
-router.patch('/profile/:userId',  authorize(['user', 'admin']), updateProfile);
+router.patch('/update-profile/:userId',  authorize(['user', 'admin']), updateProfile);
 // router.post('/address/:userId', authorize(['user', 'admin']), addAddress);
 // router.patch('/address/:userId/:addressId', authorize(['user', 'admin']), updateAddress);
 // router.delete('/address/:userId/:addressId', authorize(['user', 'admin']), deleteAddress);

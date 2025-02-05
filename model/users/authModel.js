@@ -113,7 +113,7 @@ const agencySchema = new mongoose.Schema({
     },
     establishedYear: {
         type: Number,
-        required: [true, 'Established year is required']
+        required: [true, 'Established yea   r is required']
     }
 });
 
